@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/Rinat0776/Clothing-store#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.43.4"
+  },
+  "dependencies": {
+    "node-sass": "^6.0.1"
   }
 }
