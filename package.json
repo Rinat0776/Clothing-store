@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Rinat0776/Clothing-store/issues"
   },
-  "homepage": "https://github.com/Rinat0776/Clothing-store#readme"
+  "homepage": "https://github.com/Rinat0776/Clothing-store#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
