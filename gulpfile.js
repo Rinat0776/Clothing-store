@@ -1,7 +1,8 @@
 const { src, dest, watch,  series  } = require('gulp');
 const browserSync = require('browser-sync').create();
-// const sass = require('gulp-sass');
-var sass = require('gulp-sass')(require('sass'));
+const sass = require('gulp-sass');
+
+
 
 // Save a reference to the `reload` method
 
