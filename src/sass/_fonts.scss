@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Poppins Regular';
+    src: 
+        url('../fonts/Poppins-Regular.woff')format('woff'),
+        url('../fonts/Poppins-Regular.woff2')format('woff2');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins Bold';
+    
+src: 
+    url('../fonts/Poppins-Bold.woff')format('woff'),
+    url('../fonts/Poppins-Bold.woff2')format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins Medium';
+
+src:
+    url('../fonts/Poppins-Medium.woff')format('woff'),
+    url('../fonts/Poppins-Medium.woff2')format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@mixin Reg {
+    font-family: 'Poppins Regular', sans-serif;
+}
+
+@mixin Bold {
+    font-family: 'Poppins Bold', sans-serif;
+}
+
+@mixin Med {
+    font-family: 'Poppins Medium', sans-serif;
+}

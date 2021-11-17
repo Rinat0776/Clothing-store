@@ -1,0 +1,33 @@
+.hero
+    background: url(../img/hero_bg.jpg)
+    background-repeat: no-repeat
+    background-size: contain
+    height: 600px
+    position: relative
+    &__info
+        position: absolute
+        right: 140px
+        bottom: 80px
+    &__heading
+        font-size: 80px
+        font-weight: 700
+        margin-top: 0
+        margin-bottom: 0
+        +Bold
+    &__description
+        font-size: 18px
+        font-weight: 500
+        +Med
+        &_top
+            text-transform: uppercase
+    &__inner
+        margin-top: 23px
+
+    &__button
+        font-size: 18px
+        color: $white
+        padding: 4px 26px 
+        background-color: $dark
+        display: inline-block
+        margin-right: 34px
+        +Med
