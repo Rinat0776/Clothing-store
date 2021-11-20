@@ -1,0 +1,34 @@
+.category
+    &__wrap
+        display: flex
+        justify-content: space-between
+        max-height: 574px
+    &__column
+        display: flex
+        flex-direction: column
+        max-width: 50%
+        height: inherit
+        &:firts-child 
+            margin-right: 15px
+        &:last-child  
+            margin-left: 15px    
+    &__inner
+        &_top
+            display: flex
+            flex-grow: 2
+            max-width: 100%
+        &_bottom
+            display: flex
+            justify-content: space-between
+            max-width: 100%
+            flex-grow: 1
+            margin-top: 20px
+    &__img
+        &_little
+            &:first-child
+                padding-right: 10px
+                max-width: 50%
+            &:last-child
+                padding-left: 10px
+                max-width: 50%
+        
